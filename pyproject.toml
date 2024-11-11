@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "nlp-intro"
+version = "0.1.0"
+description = ""
+authors = ["nirkon <nirk@originai.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.20"
+notebook = "^7.2.2"
+pillow = "^11.0.0"
+matplotlib = "^3.9.2"
+transformers = "^4.46.2"
+torch = "^2.5.1"
+tqdm = "^4.67.0"
+numpy = "1.23.5"
+stanza = "^1.9.2"
+iprogress = "^0.4"
+tabulate = "^0.9.0"
+arabic-reshaper = "^3.0.0"
+python-bidi = "^0.6.3"
+pandas = "^2.2.3"
+gensim = "^4.3.3"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
